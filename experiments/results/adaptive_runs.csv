@@ -1,0 +1,65 @@
+alpha,config,seed,windows,alarm_windows
+0.3,z=2 fixe,0,0,0
+0.3,z=2 fixe,1,0,0
+0.3,z=2 fixe,2,0,0
+0.3,z=2 fixe,3,0,0
+0.3,z=2 fixe,4,0,0
+0.3,z=2 fixe,5,0,0
+0.3,z=2 fixe,6,0,0
+0.3,z=2 fixe,7,0,0
+0.3,z=6 fixe,0,0,0
+0.3,z=6 fixe,1,0,0
+0.3,z=6 fixe,2,0,0
+0.3,z=6 fixe,3,0,0
+0.3,z=6 fixe,4,0,0
+0.3,z=6 fixe,5,0,0
+0.3,z=6 fixe,6,0,0
+0.3,z=6 fixe,7,0,0
+0.3,adaptatif 2->6,0,177,2
+0.3,adaptatif 2->6,1,177,0
+0.3,adaptatif 2->6,2,177,0
+0.3,adaptatif 2->6,3,177,0
+0.3,adaptatif 2->6,4,177,8
+0.3,adaptatif 2->6,5,177,4
+0.3,adaptatif 2->6,6,177,7
+0.3,adaptatif 2->6,7,177,0
+0.3,adaptatif 2->6 + garde D=4,0,177,1
+0.3,adaptatif 2->6 + garde D=4,1,177,0
+0.3,adaptatif 2->6 + garde D=4,2,177,0
+0.3,adaptatif 2->6 + garde D=4,3,177,0
+0.3,adaptatif 2->6 + garde D=4,4,177,4
+0.3,adaptatif 2->6 + garde D=4,5,177,15
+0.3,adaptatif 2->6 + garde D=4,6,177,0
+0.3,adaptatif 2->6 + garde D=4,7,177,0
+0.4,z=2 fixe,0,0,0
+0.4,z=2 fixe,1,0,0
+0.4,z=2 fixe,2,0,0
+0.4,z=2 fixe,3,0,0
+0.4,z=2 fixe,4,0,0
+0.4,z=2 fixe,5,0,0
+0.4,z=2 fixe,6,0,0
+0.4,z=2 fixe,7,0,0
+0.4,z=6 fixe,0,0,0
+0.4,z=6 fixe,1,0,0
+0.4,z=6 fixe,2,0,0
+0.4,z=6 fixe,3,0,0
+0.4,z=6 fixe,4,0,0
+0.4,z=6 fixe,5,0,0
+0.4,z=6 fixe,6,0,0
+0.4,z=6 fixe,7,0,0
+0.4,adaptatif 2->6,0,177,5
+0.4,adaptatif 2->6,1,177,20
+0.4,adaptatif 2->6,2,177,10
+0.4,adaptatif 2->6,3,177,12
+0.4,adaptatif 2->6,4,177,16
+0.4,adaptatif 2->6,5,177,16
+0.4,adaptatif 2->6,6,177,20
+0.4,adaptatif 2->6,7,177,15
+0.4,adaptatif 2->6 + garde D=4,0,177,5
+0.4,adaptatif 2->6 + garde D=4,1,177,15
+0.4,adaptatif 2->6 + garde D=4,2,177,22
+0.4,adaptatif 2->6 + garde D=4,3,177,24
+0.4,adaptatif 2->6 + garde D=4,4,177,16
+0.4,adaptatif 2->6 + garde D=4,5,177,17
+0.4,adaptatif 2->6 + garde D=4,6,177,12
+0.4,adaptatif 2->6 + garde D=4,7,177,15

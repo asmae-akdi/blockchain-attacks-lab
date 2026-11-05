@@ -1,0 +1,9 @@
+scenario,succes_double_spend,perte_marchand,profit_attaquant,part_recompenses,gain_vs_equitable,orphelins,refus_garde
+Reference (sans attaque),0.0,0.0,0.0,,0.0,0.03020901770979533,0.0
+"51 % ATTAQUEE, z=2",0.63,630.0,-196.13646378374156,,,,0.0
+"51 % PROTEGEE (garde D=4), z=2",0.45,450.0,-525.1364637837416,,,,0.29
+"51 % ATTAQUEE, z=6",0.48,480.0,-995.8744840573216,,,,0.0
+"51 % PROTEGEE (garde D=4), z=6",0.0,0.0,-1772.3744840573218,,,,1.07
+Selfish mining ATTAQUEE,,,,0.5101681116388624,0.11016811163886242,0.3079138810380262,0.0
+Selfish mining PROTEGEE (depart aleatoire),,,,0.5262636285968829,0.1262636285968829,0.303964229931537,0.0
+Selfish mining PROTEGEE (garde D=3),,,,0.14968846084173984,-0.2503115391582602,0.6909606314811253,9306.8

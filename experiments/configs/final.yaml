@@ -1,0 +1,33 @@
+# Configuration des experiences finales (Etape 7).
+# Tout est ici : relancer avec la meme configuration redonne les memes resultats.
+seed_base: 4000
+
+base:                      # conditions de reference
+  n_nodes: 10
+  block_interval: 60.0
+  latency_mean: 2.0
+  loss_prob: 0.0
+
+trials:
+  attack51: 100            # essais par cas (attaque 51 %)
+  selfish: 8               # graines par cas (selfish mining)
+  selfish_blocks: 2000     # blocs simules par essai
+  reference: 5             # graines pour la reference (sans attaque)
+
+cases:
+  attack51: {alpha: [0.30, 0.40], z: 2}
+  selfish:  {alpha: [0.25, 0.33, 0.40]}
+
+sweeps:
+  n_nodes: [10, 20, 40]
+  latency_mean: [1, 2, 5, 10]
+  patience: [3, 10, 30]    # strategie adverse 51 % : retard max tolere avant abandon
+
+detection:                 # robustesse de la detection (detecteurs regles en conditions standard)
+  seeds_per: 1
+  conditions:
+    - {name: lat1,   n_nodes: 10, latency_mean: 1.0,  loss_prob: 0.0}
+    - {name: lat5,   n_nodes: 10, latency_mean: 5.0,  loss_prob: 0.0}
+    - {name: lat10,  n_nodes: 10, latency_mean: 10.0, loss_prob: 0.0}
+    - {name: n40,    n_nodes: 40, latency_mean: 2.0,  loss_prob: 0.0}
+    - {name: loss10, n_nodes: 10, latency_mean: 2.0,  loss_prob: 0.10}

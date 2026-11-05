@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-05 22:02:13",
+  "quick": false,
+  "python": "3.11.9",
+  "numpy": "2.4.6",
+  "pandas": "3.1.0",
+  "sklearn": "1.9.1",
+  "config": {
+    "seed_base": 4000,
+    "base": {
+      "n_nodes": 10,
+      "block_interval": 60.0,
+      "latency_mean": 2.0,
+      "loss_prob": 0.0
+    },
+    "trials": {
+      "attack51": 100,
+      "selfish": 8,
+      "selfish_blocks": 2000,
+      "reference": 5
+    },
+    "cases": {
+      "attack51": {
+        "alpha": [
+          0.3,
+          0.4
+        ],
+        "z": 2
+      },
+      "selfish": {
+        "alpha": [
+          0.25,
+          0.33,
+          0.4
+        ]
+      }
+    },
+    "sweeps": {
+      "n_nodes": [
+        10,
+        20,
+        40
+      ],
+      "latency_mean": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "patience": [
+        3,
+        10,
+        30
+      ]
+    },
+    "detection": {
+      "seeds_per": 1,
+      "conditions": [
+        {
+          "name": "lat1",
+          "n_nodes": 10,
+          "latency_mean": 1.0,
+          "loss_prob": 0.0
+        },
+        {
+          "name": "lat5",
+          "n_nodes": 10,
+          "latency_mean": 5.0,
+          "loss_prob": 0.0
+        },
+        {
+          "name": "lat10",
+          "n_nodes": 10,
+          "latency_mean": 10.0,
+          "loss_prob": 0.0
+        },
+        {
+          "name": "n40",
+          "n_nodes": 40,
+          "latency_mean": 2.0,
+          "loss_prob": 0.0
+        },
+        {
+          "name": "loss10",
+          "n_nodes": 10,
+          "latency_mean": 2.0,
+          "loss_prob": 0.1
+        }
+      ]
+    }
+  }
+}
